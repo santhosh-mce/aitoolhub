@@ -36,7 +36,7 @@ export function Navbar() {
             <Link href="/free" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Free Tools</Link>
             <Link href="/prompts" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Prompts</Link>
             <Link href="/compare" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Comparisons</Link>
-            /*<Link href="/blog" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Blog</Link> */
+            /* <Link href="/blog" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Blog</Link> */
             <a href="#" className="whitespace-nowrap bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Submit Tool</a>
           </div>
 
