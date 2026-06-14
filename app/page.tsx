@@ -7,9 +7,9 @@ import { tools, ToolCategory } from '@/lib/data';
 import { ToolCard } from '@/components/ToolCard';
 
 const categories: ToolCategory[] = [
-  "AI Writing", "AI Image Generator", "AI Video", 
-  "AI Coding", "AI Marketing", "AI Productivity", 
-  "AI Education", "AI Voice", "AI Assistant"
+  "AI Assistant Tools", "AI Assistant", "AI Image Generator", "AI Video Generator", 
+  "AI Coding", "AI Marketing Tools", "AI Productivity Tools", 
+  "AI Education Tools", "AI Voice Tools"
 ];
 
 export default function Home() {
