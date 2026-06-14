@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        <meta name="google-site-verification" content="0RU9hPsGz2fca_R-EREqHVXU6QHqak-TpnEYEXCANFU" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6109405882868590"
