@@ -1,0 +1,6 @@
+{
+  "name": "AI Tools Hub",
+  "description": "A comprehensive directory for the best AI tools, prompts, and comparisons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
