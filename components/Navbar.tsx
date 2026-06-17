@@ -36,7 +36,9 @@ export function Navbar() {
             <Link href="/free" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Free Tools</Link>
             <Link href="/prompts" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Prompts</Link>
             <Link href="/compare" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Comparisons</Link>
-            {/* <Link href="/blog" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Blog</Link> */}
+            <Link href="/blog" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Blog</Link>
+            <Link href="/about" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">About</Link>
+            <Link href="/contact" className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Contact</Link>
             <a href="#" className="whitespace-nowrap bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Submit Tool</a>
           </div>
 
@@ -84,6 +86,8 @@ export function Navbar() {
               <Link href="/prompts" className="text-lg font-medium text-gray-800 hover:text-blue-600 hover:bg-white/60 px-4 py-3 rounded-xl transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Prompts</Link>
               <Link href="/compare" className="text-lg font-medium text-gray-800 hover:text-blue-600 hover:bg-white/60 px-4 py-3 rounded-xl transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Comparisons</Link>
               <Link href="/blog" className="text-lg font-medium text-gray-800 hover:text-blue-600 hover:bg-white/60 px-4 py-3 rounded-xl transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Blog</Link>
+              <Link href="/about" className="text-lg font-medium text-gray-800 hover:text-blue-600 hover:bg-white/60 px-4 py-3 rounded-xl transition-colors" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
+              <Link href="/contact" className="text-lg font-medium text-gray-800 hover:text-blue-600 hover:bg-white/60 px-4 py-3 rounded-xl transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
               
               <div className="mt-4 pt-4 border-t border-gray-900/5">
                 <a href="#" className="flex px-4 py-3 text-lg font-medium text-blue-600 hover:bg-blue-50/60 rounded-xl transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Submit Tool</a>
